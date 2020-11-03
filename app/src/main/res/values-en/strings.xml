@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MirrorNext</string>
+    <string name="desc_sair">Exit</string>
+    <string name="senha">Password</string>
+    <string name="esqueci_senha">Forgot my password</string>
+    <string name="entrar">Login</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamanho_texto_btn_login">18sp</dimen>
+    <dimen name="margem_tela">20dp</dimen>
+    <dimen name="raio_bordas">6dp</dimen>
+</resources>

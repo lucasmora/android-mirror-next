@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MirrorNext</string>
+    <string name="desc_sair">Sair</string>
+    <string name="nome" translatable="false">next</string>
+    <string name="nome_cliente" translatable="false">LUCAS MÔRA DA SILVA</string>
+    <string name="senha">Senha</string>
+    <string name="esqueci_senha">Esqueci minha senha</string>
+    <string name="entrar">Entrar</string>
 </resources>

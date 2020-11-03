@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MirrorNext" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="logotipo">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontWeight">700</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="botao_login">
+        <item name="android:background">@color/colorDark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontWeight">700</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/tamanho_texto_btn_login</item>
+        <item name="android:radius">10dp</item>
+    </style>
+
+    <style name="botoes_atalhos">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/botao_inferior</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingHorizontal">20dp</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:textColor">@color/colorDark</item>
+    </style>
+</resources>
