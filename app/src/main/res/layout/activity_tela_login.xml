@@ -121,7 +121,7 @@
             android:layout_height="wrap_content"
             android:drawableTop="@drawable/atalhos"
             android:onClick="atalhos"
-            android:text="ATALHOS" />
+            android:text="@string/atalhos" />
 
         <Button
             android:id="@+id/token_btn"
@@ -129,14 +129,14 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
             android:drawableTop="@drawable/token"
-            android:text="TOKEN" />
+            android:text="@string/token" />
 
         <Button
             android:id="@+id/contato_btn"
             style="@style/botoes_atalhos"
             android:layout_height="wrap_content"
             android:drawableTop="@drawable/contato"
-            android:text="CONTATO" />
+            android:text="@string/contato" />
 
     </LinearLayout>
 

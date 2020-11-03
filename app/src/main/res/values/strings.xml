@@ -6,4 +6,11 @@
     <string name="senha">Senha</string>
     <string name="esqueci_senha">Esqueci minha senha</string>
     <string name="entrar">Entrar</string>
+    <string name="esqueci_minha_senha">Esqueci minha senha</string>
+    <string name="digite_seu_cpf_para_mudar_a_senha">Digite seu CPF para alterar a senha:</string>
+    <string name="cpf" translatable="false">CPF</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="atalhos">ATALHOS</string>
+    <string name="token" translatable="false">TOKEN</string>
+    <string name="contato">CONTATO</string>
 </resources>
