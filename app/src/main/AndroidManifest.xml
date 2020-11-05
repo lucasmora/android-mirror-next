@@ -12,14 +12,23 @@
         <activity android:name=".TelaLogin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".EsqueciMinhaSenha"
             android:parentActivityName=".TelaLogin">
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.example.mirrornext.TelaLogin" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mirrornext.TelaLogin" />
+        </activity>
+        <activity
+            android:name=".Atalhos"
+            android:parentActivityName=".TelaLogin">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mirrornext.TelaLogin" />
         </activity>
     </application>
 
