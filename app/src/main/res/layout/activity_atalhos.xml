@@ -44,4 +44,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/atalhos_tv" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerAtalhos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divider" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

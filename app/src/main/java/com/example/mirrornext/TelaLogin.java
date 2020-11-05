@@ -22,4 +22,9 @@ public class TelaLogin extends AppCompatActivity {
         Intent i = new Intent(this, EsqueciMinhaSenha.class);
         startActivity(i);
     }
+
+    public void atalhos(View v) {
+        Intent i = new Intent(this, Atalhos.class);
+        startActivity(i);
+    }
 }
