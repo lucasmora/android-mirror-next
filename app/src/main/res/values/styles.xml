@@ -2,19 +2,20 @@
 <resources>
     <style name="Theme.MirrorNext" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/verde_claro</item>
+        <item name="colorPrimaryDark">@color/verde_escuro</item>
+        <item name="colorAccent">@color/azul_verde</item>
     </style>
 
     <style name="logotipo">
         <item name="android:textSize">20sp</item>
-        <item name="android:fontWeight">700</item>
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textFontWeight">700</item>
+        <item name="android:fontFamily">@font/cantarell</item>
     </style>
 
     <style name="botao_login">
-        <item name="android:background">@color/colorDark</item>
+        <item name="android:background">@color/preto</item>
         <item name="android:gravity">center</item>
         <item name="android:fontWeight">700</item>
         <item name="android:textColor">#FFFFFF</item>
@@ -24,13 +25,19 @@
     </style>
 
     <style name="botoes_atalhos">
-        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">60dp</item>
         <item name="android:textSize">12sp</item>
-        <item name="android:background">@drawable/botao_inferior</item>
+        <item name="android:background">@drawable/botao_atalho_inferior</item>
         <item name="android:drawablePadding">5dp</item>
+        <item name="android:drawableTint">@color/preto</item>
         <item name="android:gravity">center</item>
         <item name="android:paddingHorizontal">20dp</item>
         <item name="android:paddingVertical">10dp</item>
-        <item name="android:textColor">@color/colorDark</item>
+        <item name="android:textColor">@color/preto</item>
+    </style>
+
+    <style name="imagem_usuario">
+        <item name="android:background">@drawable/img_conta</item>
     </style>
 </resources>

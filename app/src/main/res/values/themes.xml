@@ -2,8 +2,17 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/verde_claro</item>
+        <item name="colorPrimaryDark">@color/verde_escuro</item>
+        <item name="colorAccent">@color/azul_verde</item>
+    </style>
+
+    <style name="TemaTelaLogin" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:fontFamily">@font/cantarell</item>
+    </style>
+
+    <style name="TemaTelaPrincipal" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:fontFamily">@font/cantarell</item>
+        <item name="android:textColor">@color/preto</item>
     </style>
 </resources>

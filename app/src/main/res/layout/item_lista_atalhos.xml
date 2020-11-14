@@ -12,7 +12,7 @@
         android:layout_gravity="center"
         android:minWidth="36dp"
         android:minHeight="36dp"
-        android:src="@drawable/caixa_eletronico" />
+        android:src="@drawable/icone_cx_eletronico" />
 
     <TextView
         android:id="@+id/texto_recycler_atalhos"
@@ -21,7 +21,7 @@
         android:layout_gravity="center"
         android:paddingStart="20dp"
         android:text="TEXTO"
-        android:textColor="@color/colorDark"
+        android:textColor="@color/preto"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/seta_avancar" />
+            android:src="@drawable/icone_seta_avancar" />
 
 
     </LinearLayout>

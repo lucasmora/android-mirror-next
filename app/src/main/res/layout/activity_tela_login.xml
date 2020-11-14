@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:theme="@style/TemaTelaLogin"
     android:background="@drawable/fundo_gradiente"
     tools:context=".TelaLogin">
 
@@ -13,8 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="15dp"
-        android:background="@drawable/seta_voltar"
-        android:backgroundTint="@color/colorDark"
+        android:background="@drawable/icone_seta_voltar"
+        android:backgroundTint="@color/preto"
         android:contentDescription="@string/desc_sair"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -46,7 +47,7 @@
         android:layout_height="130dp"
         android:layout_marginTop="30dp"
         android:contentDescription="Imagem da conta"
-        android:src="@drawable/conta"
+        android:src="@drawable/img_conta"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider" />
@@ -58,7 +59,7 @@
         android:layout_marginTop="8dp"
         android:gravity="center"
         android:text="@string/nome_cliente"
-        android:textColor="@color/colorDark"
+        android:textColor="@color/preto"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,23 +73,23 @@
         android:layout_marginHorizontal="30dp"
         android:layout_marginVertical="30dp"
         android:hint="@string/senha"
-        android:textSize="14sp"
-        android:textColorHint="@color/colorPrimaryDark"
         android:inputType="numberPassword"
+        android:textColorHint="@color/verde_escuro"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/user_textview" />
 
     <TextView
         android:id="@+id/esqueceu_senha"
-        android:textSize="12sp"
-        android:textColor="@color/colorDark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="10dp"
         android:layout_marginEnd="40dp"
         android:onClick="esqSenha"
         android:text="@string/esqueci_senha"
+        android:textColor="@color/preto"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/senha_et" />
 
@@ -119,7 +120,7 @@
             android:id="@+id/atalhos_btn"
             style="@style/botoes_atalhos"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/atalhos"
+            android:drawableTop="@drawable/icone_atalhos"
             android:onClick="atalhos"
             android:text="@string/atalhos" />
 
@@ -128,14 +129,14 @@
             style="@style/botoes_atalhos"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
-            android:drawableTop="@drawable/token"
+            android:drawableTop="@drawable/icone_token"
             android:text="@string/token" />
 
         <Button
             android:id="@+id/contato_btn"
             style="@style/botoes_atalhos"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/contato"
+            android:drawableTop="@drawable/icone_contato"
             android:text="@string/contato" />
 
     </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorDark"
+    android:background="@color/preto"
     tools:context=".EsqueciMinhaSenha">
 
     <ImageButton
@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="15dp"
-        android:background="@drawable/seta_voltar"
-        android:backgroundTint="@color/colorPrimary"
+        android:background="@drawable/icone_seta_voltar"
+        android:backgroundTint="@color/verde_claro"
         android:contentDescription="Voltar"
         android:onClick="voltar"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,7 +75,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/verde_escuro"
         android:paddingVertical="20dp"
         android:text="@string/continuar"
         android:textSize="16sp"
