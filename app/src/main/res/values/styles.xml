@@ -28,7 +28,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">60dp</item>
         <item name="android:textSize">12sp</item>
-        <item name="android:background">@drawable/botao_atalho_inferior</item>
+        <item name="android:background">@drawable/botoes_atalhos</item>
         <item name="android:drawablePadding">5dp</item>
         <item name="android:drawableTint">@color/preto</item>
         <item name="android:gravity">center</item>
