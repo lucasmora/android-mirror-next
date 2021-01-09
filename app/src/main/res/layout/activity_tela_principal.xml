@@ -86,7 +86,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/txt_saldo"
+        android:id="@+id/label_saldo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="22dp"
@@ -104,9 +104,10 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txt_saldo">
+        app:layout_constraintTop_toBottomOf="@id/label_saldo">
 
         <TextView
+            android:id="@+id/valor_saldo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -117,10 +118,13 @@
             android:textStyle="bold" />
 
         <ImageButton
+            android:id="@+id/btn_visib_saldo"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:layout_gravity="center_vertical"
-            android:background="@drawable/icone_olho_on" />
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/icone_olho_on"
+            android:onClick="alternarVisibSaldo" />
     </LinearLayout>
 
 
