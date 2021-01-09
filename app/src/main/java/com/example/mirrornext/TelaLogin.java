@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class TelaLogin extends AppCompatActivity {
     TextView esqueceu_senha_btn;
@@ -49,6 +50,14 @@ public class TelaLogin extends AppCompatActivity {
     public void atalhos(View v) {
         Intent i = new Intent(this, Atalhos.class);
         startActivity(i);
+    }
+    
+    public void token(View v) {
+        Toast.makeText(this, R.string.token, Toast.LENGTH_SHORT).show();
+    }
+    
+    public void contato(View v) {
+        Toast.makeText(this, R.string.contato, Toast.LENGTH_SHORT).show();
     }
 
     public void sair() {

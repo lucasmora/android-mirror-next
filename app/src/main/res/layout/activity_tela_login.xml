@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:theme="@style/TemaTelaLogin"
     android:background="@color/verde_claro"
+    android:theme="@style/TemaTelaLogin"
     tools:context=".TelaLogin">
 
     <ImageButton
@@ -74,6 +74,7 @@
         android:layout_marginVertical="30dp"
         android:hint="@string/senha"
         android:inputType="numberPassword"
+        android:textColor="@color/preto"
         android:textColorHint="@color/verde_escuro"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -130,6 +131,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
             android:drawableTop="@drawable/icone_token"
+            android:onClick="token"
             android:text="@string/token" />
 
         <Button
@@ -137,6 +139,7 @@
             style="@style/botoes_atalhos"
             android:layout_height="wrap_content"
             android:drawableTop="@drawable/icone_contato"
+            android:onClick="contato"
             android:text="@string/contato" />
 
     </LinearLayout>
