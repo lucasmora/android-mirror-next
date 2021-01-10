@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="Theme.MirrorNext" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/verde_claro</item>
@@ -10,7 +11,7 @@
     <style name="logotipo">
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/preto</item>
-        <item name="android:textFontWeight">700</item>
+        <item name="android:fontWeight">700</item>
         <item name="android:fontFamily">@font/cantarell</item>
     </style>
 
@@ -35,6 +36,17 @@
         <item name="android:paddingHorizontal">20dp</item>
         <item name="android:paddingVertical">10dp</item>
         <item name="android:textColor">@color/preto</item>
+    </style>
+
+    <style name="botoes_menu_principal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/botoes_menu</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:paddingVertical">15dp</item>
+        <item name="android:drawableTint">@color/verde_escuro</item>
+        <item name="android:textColor">@color/verde_escuro</item>
     </style>
 
     <style name="imagem_usuario">
