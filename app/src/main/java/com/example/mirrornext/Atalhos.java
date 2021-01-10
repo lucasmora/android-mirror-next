@@ -29,7 +29,7 @@ public class Atalhos extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        int[] imagens = {R.drawable.icone_cx_eletronico, R.drawable.icone_dolar, R.drawable.icone_suporte};
+        int[] imagens = {R.drawable.icone_cx_eletronico, R.drawable.icone_dinheiro, R.drawable.icone_suporte};
         String[] dados = {"Buscar caixas eletrônicos", "Cotação do dólar", "Contato"};
         adaptador = new Adaptador(imagens, dados);
         recyclerView.setAdapter(adaptador);
