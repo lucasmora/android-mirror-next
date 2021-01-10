@@ -2,6 +2,8 @@ package com.example.mirrornext;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -41,5 +43,20 @@ public class TelaPrincipal extends AppCompatActivity {
             icone_visivel.setBackgroundResource(R.drawable.icone_olho_on);
             visivel = true;
         }
+    }
+
+    public void sair(View v) {
+        new AlertDialog.Builder(this)
+                .setIcon(R.drawable.icone_suporte)
+                .setTitle("Fechando aplicativo")
+                .setMessage("Tem certeza que deseja fechar o app?")
+                .setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
+                })
+                .setNegativeButton("Não", null)
+                .show();
     }
 }

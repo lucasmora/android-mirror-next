@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/verde_claro"
-    android:paddingHorizontal="20dp"
     android:theme="@style/TemaTelaPrincipal"
     tools:context=".TelaPrincipal">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
         android:scrollbars="none"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -148,7 +148,7 @@
                 android:layout_marginTop="20dp"
                 android:columnCount="2"
                 android:orientation="horizontal"
-                android:padding="10dp"
+                android:paddingVertical="10dp"
                 android:useDefaultMargins="true"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -299,6 +299,7 @@
                     android:gravity="center"
                     android:paddingVertical="10dp"
                     android:text="SAIR"
+                    android:onClick="sair"
                     android:textSize="12sp" />
             </LinearLayout>
         </LinearLayout>
