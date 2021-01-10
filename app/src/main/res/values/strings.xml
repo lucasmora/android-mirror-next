@@ -13,4 +13,19 @@
     <string name="atalhos">ATALHOS</string>
     <string name="token" translatable="false">TOKEN</string>
     <string name="contato">CONTATO</string>
+    <string name="ajuda">AJUDA</string>
+    <string name="saldo_e_extrato">SALDO E EXTRATO</string>
+    <string name="flow" translatable="false">FLOW</string>
+    <string name="transferencia">TRANSFERÊNCIA</string>
+    <string name="pagar_conta">PAGAR CONTA</string>
+    <string name="cartao">CARTÃO</string>
+    <string name="objetivos">OBJETIVOS</string>
+    <string name="configuracoes_do_app">CONFIGURAÇÕES DO APP</string>
+    <string name="termos_e_condicoes">TERMOS E CONDIÇÕES</string>
+    <string name="sair">SAIR</string>
+    <string name="saldo_conta_corrente">SALDO CONTA-CORRENTE</string>
+    <string name="reorganizar_menu">REORGANIZAR MENU</string>
+    <string name="recarga_celular">RECARGA CELULAR</string>
+    <string name="investimentos">INVESTIMENTOS</string>
+    <string name="valor_saldo" translatable="false">R$ 6.548,91</string>
 </resources>

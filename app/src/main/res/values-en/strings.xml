@@ -10,4 +10,17 @@
     <string name="continuar">NEXT</string>
     <string name="atalhos">SHORTCUTS</string>
     <string name="contato">CONTACT US</string>
+    <string name="ajuda">HELP</string>
+    <string name="saldo_e_extrato">BALANCE</string>
+    <string name="transferencia">TRANSFER</string>
+    <string name="pagar_conta">PAY BILLS</string>
+    <string name="cartao">CREDIT CARD</string>
+    <string name="objetivos">GOALS</string>
+    <string name="configuracoes_do_app">APP SETTINGS</string>
+    <string name="termos_e_condicoes">TERMS AND CONDITIONS</string>
+    <string name="sair">EXIT</string>
+    <string name="saldo_conta_corrente">CURRENT BALANCE</string>
+    <string name="reorganizar_menu">REARRANGE MENU</string>
+    <string name="recarga_celular">MOBILE PHONE</string>
+    <string name="investimentos">INVESTMENTS</string>
 </resources>
