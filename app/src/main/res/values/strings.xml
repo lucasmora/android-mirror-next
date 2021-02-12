@@ -4,7 +4,6 @@
     <string name="nome" translatable="false">next</string>
     <string name="nome_cliente" translatable="false">LUCAS MÔRA DA SILVA</string>
     <string name="senha">Senha</string>
-    <string name="esqueci_senha">Esqueci minha senha</string>
     <string name="entrar">Entrar</string>
     <string name="esqueci_minha_senha">Esqueci minha senha</string>
     <string name="digite_seu_cpf_para_mudar_a_senha">Digite seu CPF para alterar a senha:</string>

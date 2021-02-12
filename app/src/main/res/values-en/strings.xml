@@ -3,7 +3,6 @@
     <string name="app_name">MirrorNext</string>
     <string name="desc_sair">Exit</string>
     <string name="senha">Password</string>
-    <string name="esqueci_senha">Forgot my password</string>
     <string name="entrar">Login</string>
     <string name="esqueci_minha_senha">Forgot my password</string>
     <string name="digite_seu_cpf_para_mudar_a_senha">Type your CPF number to reset your password:</string>
