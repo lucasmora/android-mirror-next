@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mirrornext">
+    package="com.lucasmora.mirrornext">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MirrorNext">
-        <activity android:name=".TelaLogin">
+        <activity android:name="com.lucasmora.mirrornext.TelaLogin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,26 +18,26 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EsqueciMinhaSenha"
-            android:parentActivityName=".TelaLogin">
+            android:name="com.lucasmora.mirrornext.EsqueciMinhaSenha"
+            android:parentActivityName="com.lucasmora.mirrornext.TelaLogin">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.mirrornext.TelaLogin" />
+                android:value="com.lucasmora.mirrornext.TelaLogin" />
         </activity>
         <activity
-            android:name=".Atalhos"
-            android:parentActivityName=".TelaLogin">
+            android:name="com.lucasmora.mirrornext.Atalhos"
+            android:parentActivityName="com.lucasmora.mirrornext.TelaLogin">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.mirrornext.TelaLogin" />
+                android:value="com.lucasmora.mirrornext.TelaLogin" />
         </activity>
         <activity
-            android:name=".TelaPrincipal"
-            android:theme="@style/TemaTelaPrincipal"
-            android:parentActivityName=".TelaLogin">
+            android:name="com.lucasmora.mirrornext.TelaPrincipal"
+            android:parentActivityName="com.lucasmora.mirrornext.TelaLogin"
+            android:theme="@style/TemaTelaPrincipal">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.mirrornext.TelaLogin" />
+                android:value="com.lucasmora.mirrornext.TelaLogin" />
         </activity>
 
         <meta-data

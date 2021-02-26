@@ -1,4 +1,4 @@
-package com.example.mirrornext;
+package com.lucasmora.mirrornext;
 
 import androidx.appcompat.app.AppCompatActivity;
 

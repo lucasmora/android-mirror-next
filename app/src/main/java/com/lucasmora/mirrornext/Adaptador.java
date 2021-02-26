@@ -1,4 +1,4 @@
-package com.example.mirrornext;
+package com.lucasmora.mirrornext;
 
 import android.view.LayoutInflater;
 import android.view.View;
